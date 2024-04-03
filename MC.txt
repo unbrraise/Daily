@@ -1,0 +1,75 @@
+/give @p minecraft:物品{Enchantments:[{id:"sharpness",lvl:32767s},{id:"sweeping",lvl:32767s},{id:"unbreaking",lvl:32767s},{id:"mending",lvl:32767s}]} 1
+
+用法: /player <name> spawn
+在您当前的游戏模式下，在您当前的位置产生一个具有<指定名称>的玩家
+
+Usage: /player <name> attack <continuous | interval ? | once>
+玩家执行左键攻击动作，<连续 | 间隔多少tick | 单次>
+
+Usage: /player <name> use <continuous | interval ? | once>
+The player performs the right click equivalent action
+使用右键，同理
+
+Usage: /player <name> mount
+The player rides a near by thing which is rideable
+使玩家骑乘可被骑乘的东西
+
+Usage: /player <name> dismount
+The player gets off whatever it is currently riding
+使玩家从当前所骑的东西上下来
+
+Usage: /player <name> drop
+The player drops the item they are currently holding
+使玩家丢弃当前所持有的物品
+
+Usage: /player <name> dropStack 成组丢弃
+Usage: /player <name> jump 跳跃
+Usage: /player <name> kill 击杀当前玩家
+Usage: /player <name> look <<pitch yaw> | up | down | north | south | east | west | at <x y z>>
+The player looks in the given direction
+让玩家看向指定的方向
+
+Usage: /player <name> move <backward | forward | left | right>
+The player moves in the given direction
+玩家朝指定的方向移动
+
+Usage: /player <your name> shadow
+This will replace you with a fake player on the server. It will continue to perform any scheduled actions that you have set. This only works on servers ( not single player)
+这将在服务器上把你伪装成一个假的玩家，它将继续执行您设置的任何计划操作。这只适用于服务器（非单人游戏）
+
+Usage: /player <name> sneak 潜行
+Usage: /player <name> unsneak 解除潜行
+Usage: /player <name> sprint 冲刺
+Usage: /player <name> unsprint 解决冲刺
+Usage: /player <name> stop
+The player stops moving and cancels all actions the player is doing
+令玩家停止移动并取消所有正在进行的动作
+
+Usage: /player <name> swapHands
+The player swaps the items in their main and off hands
+交换主手和副手的物品
+
+Usage: /player <name> turn
+Github没有解释说明
+
+h+c miniHUD菜单
+c+j 结构渲染
+24格球体强加载不会生成怪物，怪物走进来不消失
+128格球体是刷怪范围
+
+x+c tw菜单
+h+l 光线等级
+f7 快速放置
+f8 灵活放置
+f9 灵活工具
+f10 伽马复写
+
+m 打开投影模组菜单
+pgup 上一层
+pgdn 下一层
+m+f10 简单放置切换
+z 执行操作
+
+Jungle(丛林木)
+brown mushroom(棕色蘑菇)
+nether fungus(下界菌群)
