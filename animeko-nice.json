@@ -272,7 +272,7 @@
                 "description": "",
                 "iconUrl": "https://itopdog.xyxza.com/52pknet/imgfile/20231211/11102331be1e.jpg",
                 "searchConfig": {
-                    "searchUrl": "http://www.cyfz.vip/search.html?wd={keyword}",
+                    "searchUrl": "https://www.cyfz.vip/search.html?wd={keyword}",
                     "searchUseOnlyFirstWord": false,
                     "searchRemoveSpecial": true,
                     "searchUseSubjectNamesCount": 1,
