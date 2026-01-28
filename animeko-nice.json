@@ -333,7 +333,7 @@
             "factoryId": "web-selector",
             "version": 2,
             "arguments": {
-                "name": "米粒动漫",
+                "name": "米粒动漫(测试中)",
                 "description": "",
                 "iconUrl": "https://milimili.nl/favicon.ico",
                 "searchConfig": {
