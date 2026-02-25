@@ -1,1 +1,171 @@
+{
+	"exportedMediaSourceDataList": {
+		"mediaSources": [
+			 {
+                "factoryId": "web-selector",
+                "version": 2,
+                "arguments": {
+                    "name": "MXONE",
+                    "description": "",
+                    "iconUrl": "https://omofun.icu/template/mxpro/mxtheme/images/favicon.png",
+                    "searchConfig": {
+                        "searchUrl": "https://omofun.icu/vod/search.html?wd={keyword}",
+                        "searchUseOnlyFirstWord": true,
+                        "searchRemoveSpecial": true,
+                        "searchUseSubjectNamesCount": 1,
+                        "rawBaseUrl": "",
+                        "requestInterval": 3000,
+                        "subjectFormatId": "a",
+                        "selectorSubjectFormatA": {
+                            "selectLists": "div.module-card-item-title > a",
+                            "preferShorterName": true
+                        },
+                        "selectorSubjectFormatIndexed": {
+                            "selectNames": "body .module-card-item .module-card-item-title > a",
+                            "selectLinks": "body .module-card-item .module-card-item-footer + a",
+                            "preferShorterName": true
+                        },
+                        "selectorSubjectFormatJsonPathIndexed": {
+                            "selectLinks": "$[*]['url', 'link']",
+                            "selectNames": "$[*]['title','name']",
+                            "preferShorterName": true
+                        },
+                        "channelFormatId": "index-grouped",
+                        "selectorChannelFormatFlattened": {
+                            "selectChannelNames": ".module-tab-items-box .module-tab-item span",
+                            "matchChannelName": ".*(独家超清|高清线路9).*",
+                            "selectEpisodeLists": ".module-play-list-content",
+                            "selectEpisodesFromList": "a",
+                            "selectEpisodeLinksFromList": "",
+                            "matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
+                        },
+                        "selectorChannelFormatNoChannel": {
+                            "selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
+                            "selectEpisodeLinks": "",
+                            "matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
+                        },
+                        "defaultResolution": "1080P",
+                        "defaultSubtitleLanguage": "CHS",
+                        "onlySupportsPlayers": [],
+                        "filterByEpisodeSort": true,
+                        "filterBySubjectName": true,
+                        "selectMedia": {
+                            "distinguishSubjectName": true,
+                            "distinguishChannelName": true
+                        },
+                        "matchVideo": {
+                            "enableNestedUrl": true,
+                            "matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
+                            "matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http(s)?:\\/\\/).+((\\.mp4)|(\\.mkv)|(m3u8)).*(\\?.+)?)|(akamaized)|(bilivideo.com)",
+                            "cookies": "quality=1080",
+                            "addHeadersToVideo": {
+                                "referer": "",
+                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                            }
+                        }
+                    },
+                    "tier": 3
+                }
+            },
+       {
+                "factoryId": "web-selector",
+                "version": 2,
+                "arguments": {
+                    "name": "七色番",
+                    "description": "",
+                    "iconUrl": "https://www.7sefun.top/pc/img/logo.png",
+                    "searchConfig": {
+                        "searchUrl": "https://www.7sefun.top/vodsearch/-------------.html?wd={keyword}",
+                        "searchUseOnlyFirstWord": true,
+                        "searchRemoveSpecial": true,
+                        "searchUseSubjectNamesCount": 1,
+                        "rawBaseUrl": "",
+                        "requestInterval": 3000,
+                        "subjectFormatId": "indexed",
+                        "selectorSubjectFormatA": {
+                            "selectLists": "div.video-info-header > a",
+                            "preferShorterName": true
+                        },
+                        "selectorSubjectFormatIndexed": {
+                            "selectNames": "body > div.container > div.wrapper > div.main-container > div.videos > div > div.video-by",
+                            "selectLinks": "body > div.container > div.wrapper > div.main-container > div.videos > div > a",
+                            "preferShorterName": true
+                        },
+                        "selectorSubjectFormatJsonPathIndexed": {
+                            "selectLinks": "$[*]['url', 'link']",
+                            "selectNames": "$[*]['title','name']",
+                            "preferShorterName": true
+                        },
+                        "channelFormatId": "no-channel",
+                        "selectorChannelFormatFlattened": {
+                            "selectChannelNames": ".anthology-tab > .swiper-wrapper a",
+                            "matchChannelName": "^(?<ch>.+?)(\\d+)?$",
+                            "selectEpisodeLists": ".anthology-list-box",
+                            "selectEpisodesFromList": "a",
+                            "selectEpisodeLinksFromList": "",
+                            "matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
+                        },
+                        "selectorChannelFormatNoChannel": {
+                            "selectEpisodes": "body > div.container > div.wrapper > div.main-container.show > div > div.chat-stream > div.chat > div.message-container.vod-play-list-container > span > a",
+                            "selectEpisodeLinks": "",
+                            "matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
+                        },
+                        "defaultResolution": "1080P",
+                        "defaultSubtitleLanguage": "CHS",
+                        "onlySupportsPlayers": [],
+                        "filterByEpisodeSort": true,
+                        "filterBySubjectName": true,
+                        "selectMedia": {
+                            "distinguishSubjectName": true,
+                            "distinguishChannelName": true
+                        },
+                        "matchVideo": {
+                            "enableNestedUrl": true,
+                            "matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
+                            "matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http(s)?:\\/\\/).+((\\.mp4)|(\\.mkv)|(m3u8)).*(\\?.+)?)|(akamaized)|(bilivideo.com)",
+                            "cookies": "quality=1080",
+                            "addHeadersToVideo": {
+                                "referer": "",
+                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                            }
+                        }
+                    },
+                    "tier": 2
+                }
+            },
+      
 
+      {
+                "factoryId":"rss",
+                "version":1,
+                "arguments":
+                {
+                    "name":"AnimeGarden.CN",
+                    "description":"直连,动漫花园镜像站,网址:https://animes.garden/",
+                    "iconUrl":"https://gitee.com/JOJOC2H4/ani-source/raw/master/icon/AnimeGarden.svg",
+                    "searchConfig":
+                    {
+                        "searchUrl":"https://api.animes.garden/feed.xml?include={keyword}&type=动画",
+                        "filterByEpisodeSort":true,
+                        "filterBySubjectName":true
+                    }
+                }
+            },
+      {
+                "factoryId": "rss",
+                "version": 1,
+                "arguments": {
+                    "name": "末日动漫资源库",
+                    "description": "不一定能连上",
+                    "iconUrl": "https://share.acgnx.cc/favicon.ico",
+                    "searchConfig": {
+                        "searchUrl": "https://share.acgnx.cc/rss.xml?keyword={keyword}",
+                        "filterByEpisodeSort": true,
+                        "filterBySubjectName": true
+                    }
+                }
+            },
+       
+    ]
+  }
+}
