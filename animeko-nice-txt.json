@@ -482,8 +482,10 @@
                                 "referer": ""
                             }
                         }
-                    },
-			 {
+                    }
+                }
+            },
+            {
                 "factoryId": "web-selector",
                 "version": 2,
                 "arguments": {
@@ -549,7 +551,7 @@
                     "tier": 3
                 }
             },
-       {
+            {
                 "factoryId": "web-selector",
                 "version": 2,
                 "arguments": {
@@ -615,7 +617,7 @@
                     "tier": 2
                 }
             },
-      {
+            {
 				"factoryId": "web-selector",
 				"version": 2,
 				"arguments": {
@@ -683,7 +685,7 @@
 			},
 		
 
-      {
+            {
                 "factoryId":"rss",
                 "version":1,
                 "arguments":
@@ -699,7 +701,7 @@
                     }
                 }
             },
-      {
+            {
                 "factoryId": "rss",
                 "version": 1,
                 "arguments": {
@@ -714,6 +716,6 @@
                 }
             }
        
-    ]
-  }
+        ]
+    } 
 }
