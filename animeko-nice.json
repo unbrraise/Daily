@@ -82,43 +82,6 @@
                 "factoryId": "web-selector",
                 "version": 2,
                 "arguments": {
-                    "name": "高清点播",
-                    "description": "直连，来自高清点播，导航：https://hqvod.com/",
-                    "iconUrl": "https://hqvod.com/favicon.ico",
-                    "searchConfig": {
-                        "searchUrl": "https://hqvod.com/sousuo/-------------/?wd={keyword}",
-                        "searchUseOnlyFirstWord": true,
-                        "subjectFormatId": "a",
-                        "selectorSubjectFormatA": {
-                            "selectLists": "div.public-list-button > a",
-                            "preferShorterName": true
-                        },
-                        "channelFormatId": "index-grouped",
-                        "selectorChannelFormatFlattened": {
-                            "selectChannelNames": ".anthology-tab > .swiper-wrapper a",
-                            "matchChannelName": "^(?!.*Ac蓝光)(?<ch>.*蓝光.*?)(\\d+)?$",
-                            "selectEpisodeLists": ".anthology-list-box",
-                            "selectEpisodesFromList": "a",
-                            "selectEpisodeLinksFromList": "",
-                            "matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-                        },
-                        "matchVideo": {
-                            "enableNestedUrl": true,
-                            "matchNestedUrl": "$^",
-                            "matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http).+\\.(mp4|m3u8|flv|mkv))|(url=(?<v>http(s)?:\\/\\/.+\\.(mp4|m3u8|flv|mkv)))|(^http(s)?:\\/\\/(?!.*http).+(sign\\.bytetos|sign\\.byteimg|mcloud\\.139|cloudflarestorage|tos-cn)\\.com(?!.*\\.ts).+(-expires|-signature))|((bilivideo|akamaized|szbdyd)\\.com(?!.*\\.ts))|(\\/video\\/tos\\/)|(\\/video\\/.*mime_type=video)",
-                            "cookies": "quality=1080",
-                            "addHeadersToVideo": {
-                                "referer": ""
-                            }
-                        }
-                    },
-                    "tier": 0
-                }
-            },
-            {
-                "factoryId": "web-selector",
-                "version": 2,
-                "arguments": {
                     "name": "omofun111",
                     "description": "直连，来自omofun动漫视频网，导航：https://enlienli.link/",
                     "iconUrl": "https://enlienli.link/upload/mxprocms/20230707-1/49f4b8a7fd5cbf77ffcfa7a52e755675.gif",
@@ -342,80 +305,6 @@
                 "factoryId": "web-selector",
                 "version": 2,
                 "arguments": {
-                    "name": "第一动漫",
-                    "description": "直连，NSFW，第一动漫，导航：https://1anime.org/",
-                    "iconUrl": "https://1anime2025.me/template/conch/asset/img/favicon1.png",
-                    "searchConfig": {
-                        "searchUrl": "https://1anime2025.me/vodsearch/-------------.html?wd={keyword}",
-                        "searchUseOnlyFirstWord": true,
-                        "subjectFormatId": "a",
-                        "selectorSubjectFormatA": {
-                            "selectLists": "div.video-info-header > a",
-                            "preferShorterName": true
-                        },
-                        "channelFormatId": "index-grouped",
-                        "selectorChannelFormatFlattened": {
-                            "selectChannelNames": "div.module-tab-item > span",
-                            "matchChannelName": "",
-                            "selectEpisodeLists": ".module-list.module-player-list",
-                            "selectEpisodesFromList": "a[title]",
-                            "selectEpisodeLinksFromList": "",
-                            "matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-                        },
-                        "matchVideo": {
-                            "enableNestedUrl": true,
-                            "matchNestedUrl": "$^",
-                            "matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http).+\\.(mp4|m3u8|flv|mkv))|(url=(?<v>http(s)?:\\/\\/.+\\.(mp4|m3u8|flv|mkv)))|(^http(s)?:\\/\\/(?!.*http).+(sign\\.bytetos|sign\\.byteimg|mcloud\\.139|cloudflarestorage|tos-cn)\\.com(?!.*\\.ts).+(-expires|-signature))|((bilivideo|akamaized|szbdyd)\\.com(?!.*\\.ts))|(\\/video\\/tos\\/)|(\\/video\\/.*mime_type=video)",
-                            "cookies": "quality=1080",
-                            "addHeadersToVideo": {
-                                "referer": ""
-                            }
-                        }
-                    },
-                    "tier": 1
-                }
-            },
-            {
-                "factoryId": "web-selector",
-                "version": 2,
-                "arguments": {
-                    "name": "柯南影视",
-                    "description": "直连，来自高清点播，导航：https://hqvod.com/",
-                    "iconUrl": "https://img1.baidu.com/it/u=1696667517,694918006&fm=253",
-                    "searchConfig": {
-                        "searchUrl": "https://www.knvod.com/daxiaoren/-------------/?wd={keyword}",
-                        "searchUseOnlyFirstWord": true,
-                        "subjectFormatId": "a",
-                        "selectorSubjectFormatA": {
-                            "selectLists": "div.public-list-box .thumb-txt > a",
-                            "preferShorterName": true
-                        },
-                        "channelFormatId": "index-grouped",
-                        "selectorChannelFormatFlattened": {
-                            "selectChannelNames": ".anthology-tab > .swiper-wrapper a",
-                            "matchChannelName": "^(?<ch>.+?)(\\d+)?$",
-                            "selectEpisodeLists": ".anthology-list-box",
-                            "selectEpisodesFromList": "a",
-                            "selectEpisodeLinksFromList": "",
-                            "matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-                        },
-                        "matchVideo": {
-                            "enableNestedUrl": true,
-                            "matchNestedUrl": "$^",
-                            "matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http).+\\.(mp4|m3u8|flv|mkv))|(url=(?<v>http(s)?:\\/\\/.+\\.(mp4|m3u8|flv|mkv)))|(^http(s)?:\\/\\/(?!.*http).+(sign\\.bytetos|sign\\.byteimg|mcloud\\.139|cloudflarestorage|tos-cn)\\.com(?!.*\\.ts).+(-expires|-signature))|((bilivideo|akamaized|szbdyd)\\.com(?!.*\\.ts))|(\\/video\\/tos\\/)|(\\/video\\/.*mime_type=video)",
-                            "cookies": "quality=1080",
-                            "addHeadersToVideo": {
-                                "referer": ""
-                            }
-                        }
-                    },
-                    "tier": 2
-                }
-            },
-            {
-                "factoryId": "web-selector",
-                "version": 2,
-                "arguments": {
                     "name": "【有广】2k动漫",
                     "description": "直连，来自2k动漫，导航：https://www.2kdm.org/",
                     "iconUrl": "https://www.2kdm.org/favicon.ico",
@@ -446,72 +335,6 @@
                             }
                         }
                     }
-                }
-            },
-            {
-                "factoryId": "web-selector",
-                "version": 2,
-                "arguments": {
-                    "name": "MXONE",
-                    "description": "",
-                    "iconUrl": "https://omofun.icu/template/mxpro/mxtheme/images/favicon.png",
-                    "searchConfig": {
-                        "searchUrl": "https://omofun.icu/vod/search.html?wd={keyword}",
-                        "searchUseOnlyFirstWord": true,
-                        "searchRemoveSpecial": true,
-                        "searchUseSubjectNamesCount": 1,
-                        "rawBaseUrl": "",
-                        "requestInterval": 3000,
-                        "subjectFormatId": "a",
-                        "selectorSubjectFormatA": {
-                            "selectLists": "div.module-card-item-title > a",
-                            "preferShorterName": true
-                        },
-                        "selectorSubjectFormatIndexed": {
-                            "selectNames": "body .module-card-item .module-card-item-title > a",
-                            "selectLinks": "body .module-card-item .module-card-item-footer + a",
-                            "preferShorterName": true
-                        },
-                        "selectorSubjectFormatJsonPathIndexed": {
-                            "selectLinks": "$[*]['url', 'link']",
-                            "selectNames": "$[*]['title','name']",
-                            "preferShorterName": true
-                        },
-                        "channelFormatId": "index-grouped",
-                        "selectorChannelFormatFlattened": {
-                            "selectChannelNames": ".module-tab-items-box .module-tab-item span",
-                            "matchChannelName": ".*(独家超清|高清线路9).*",
-                            "selectEpisodeLists": ".module-play-list-content",
-                            "selectEpisodesFromList": "a",
-                            "selectEpisodeLinksFromList": "",
-                            "matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-                        },
-                        "selectorChannelFormatNoChannel": {
-                            "selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
-                            "selectEpisodeLinks": "",
-                            "matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
-                        },
-                        "defaultResolution": "1080P",
-                        "defaultSubtitleLanguage": "CHS",
-                        "onlySupportsPlayers": [],
-                        "filterByEpisodeSort": true,
-                        "filterBySubjectName": true,
-                        "selectMedia": {
-                            "distinguishSubjectName": true,
-                            "distinguishChannelName": true
-                        },
-                        "matchVideo": {
-                            "enableNestedUrl": true,
-                            "matchNestedUrl": "^.+(m3u8|vip|xigua\\.php).+\\?",
-                            "matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http(s)?:\\/\\/).+((\\.mp4)|(\\.mkv)|(m3u8)).*(\\?.+)?)|(akamaized)|(bilivideo.com)",
-                            "cookies": "quality=1080",
-                            "addHeadersToVideo": {
-                                "referer": "",
-                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
-                            }
-                        }
-                    },
-                    "tier": 3
                 }
             },
             {
