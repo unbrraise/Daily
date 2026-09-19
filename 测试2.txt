@@ -1,1 +1,51 @@
-
+{
+  "factoryId": "web-selector",
+  "version": 2,
+  "arguments": {
+    "name": "AGE动漫",
+    "description": "自制源，2026-09-19 实测站点可用。选择器只依赖 href/title 属性，不依赖 CSS 类名。",
+    "iconUrl": "https://www.agedm.io/favicon.ico",
+    "searchConfig": {
+      "searchUrl": "https://www.agedm.io/search?query={keyword}",
+      "searchUseOnlyFirstWord": false,
+      "searchRemoveSpecial": true,
+      "rawBaseUrl": "",
+      "requestInterval": 1000,
+      "subjectFormatId": "indexed",
+      "selectorSubjectFormatIndexed": {
+        "selectNames": "h1 a, h3 a, .detail h1, a[title][href*='/detail/']",
+        "selectLinks": "a[href*='/detail/']",
+        "preferShorterName": true
+      },
+      "channelFormatId": "no-channel",
+      "selectorChannelFormatNoChannel": {
+        "selectEpisodes": "a[href*='/play/']",
+        "selectEpisodeLinks": "",
+        "matchEpisodeSortFromName": "第\\s*(?<ep>\\d+)\\s*[集话]"
+      },
+      "filterByEpisodeSort": true,
+      "filterBySubjectName": true,
+      "selectMedia": {
+        "distinguishSubjectName": true,
+        "distinguishChannelName": true
+      },
+      "defaultResolution": "1080P",
+      "defaultSubtitleLanguage": "CHS",
+      "onlySupportsPlayers": [],
+      "matchVideo": {
+        "scanDomMediaUrls": true,
+        "scanInlineScriptUrls": true,
+        "enableNestedUrl": true,
+        "matchNestedUrl": "$^",
+        "matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http).+\\.(mp4|m3u8|flv|mkv)(\\?.+)?)|(url=(?<v>http(s)?:\\/\\/.+\\.(mp4|m3u8|flv|mkv)))|(^http(s)?:\\/\\/(?!.*http).+(mcloud\\.139|cloudflarestorage|tos-cn|bilivideo|akamaized|szbdyd).+(-expires|-signature|mime_type=video))",
+        "cookies": "quality=1080",
+        "addHeadersToVideo": {
+          "referer": "",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    },
+    "tier": 3,
+    "channelTiers": {}
+  }
+}
